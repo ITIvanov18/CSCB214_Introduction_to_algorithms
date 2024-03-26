@@ -10,7 +10,7 @@ void zadacha1() {
     cin >> n;
 
     int Sum = 0;
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 1; i <= n; i++) {
         Sum = Sum + i * i;
     }
 
@@ -23,7 +23,7 @@ void zadacha2() {
     cin >> n;
 
     int Sum = 0;
-    for (int i = 2; i <= n; ++i) {
+    for (int i = 2; i <= n; i++) {
         Sum = Sum + (pow(i, 2) - 2 * i);
     }
 
@@ -36,7 +36,7 @@ void zadacha3() {
     cin >> n;
 
     int Sum = 0;
-    for (int i = 3; i <= n; ++i) {
+    for (int i = 3; i <= n; i++) {
         Sum = Sum + (pow(i, 3) - 2 * i);
     }
 
