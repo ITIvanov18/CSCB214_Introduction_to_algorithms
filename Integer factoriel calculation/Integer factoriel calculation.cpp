@@ -30,7 +30,7 @@ int main()
 	int number = 1;
 	int result = 1;
 
-	// Проверяваме дали резултатът е извън диапазона на int
+	// Проверка дали резултатът е извън диапазона на int
 	while (result > 0) {
 		if (result > INT_MAX / number) {
 			cout << "Препълването настъпва при factoriel(" << (number - 1) << ")" << endl;
