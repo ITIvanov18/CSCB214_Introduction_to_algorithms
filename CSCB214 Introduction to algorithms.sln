@@ -17,7 +17,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taylor series expansion", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Accumulation of amounts", "Accumulation of amounts\Accumulation of amounts.vcxproj", "{D69063A3-FE5F-4B1B-A2C4-1E6C16764776}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Leibniz formula for Pi", "Leibniz formula for Pi\Leibniz formula for Pi.vcxproj", "{08ED48EF-492A-4F9E-A8CC-C28D6003B240}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pi approximation using Leibniz formula", "Leibniz formula for Pi\Leibniz formula for Pi.vcxproj", "{08ED48EF-492A-4F9E-A8CC-C28D6003B240}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Integer factoriel calculation", "Integer factoriel calculation\Integer factoriel calculation.vcxproj", "{F86BF260-9663-47AF-842D-05ABFA6DD849}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pi approximation", "Pi approximation\Pi approximation.vcxproj", "{FD1B9BB2-52CB-408B-8C11-32415AB550FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,22 @@ Global
 		{08ED48EF-492A-4F9E-A8CC-C28D6003B240}.Release|x64.Build.0 = Release|x64
 		{08ED48EF-492A-4F9E-A8CC-C28D6003B240}.Release|x86.ActiveCfg = Release|Win32
 		{08ED48EF-492A-4F9E-A8CC-C28D6003B240}.Release|x86.Build.0 = Release|Win32
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Debug|x64.ActiveCfg = Debug|x64
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Debug|x64.Build.0 = Debug|x64
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Debug|x86.ActiveCfg = Debug|Win32
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Debug|x86.Build.0 = Debug|Win32
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Release|x64.ActiveCfg = Release|x64
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Release|x64.Build.0 = Release|x64
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Release|x86.ActiveCfg = Release|Win32
+		{F86BF260-9663-47AF-842D-05ABFA6DD849}.Release|x86.Build.0 = Release|Win32
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Debug|x64.ActiveCfg = Debug|x64
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Debug|x64.Build.0 = Debug|x64
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Debug|x86.Build.0 = Debug|Win32
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Release|x64.ActiveCfg = Release|x64
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Release|x64.Build.0 = Release|x64
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Release|x86.ActiveCfg = Release|Win32
+		{FD1B9BB2-52CB-408B-8C11-32415AB550FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
