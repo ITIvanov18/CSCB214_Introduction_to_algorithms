@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Function of sin(x) with Mac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linear search algorithm", "Linear search algorithm\Linear search algorithm.vcxproj", "{2520A76E-BF6D-4449-87F0-EC845B1D396C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sorting an array in another array", "Sorting an array in another array\Sorting an array in another array.vcxproj", "{FBE8D9C2-1211-4D53-940B-4BB747AD627B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{2520A76E-BF6D-4449-87F0-EC845B1D396C}.Release|x64.Build.0 = Release|x64
 		{2520A76E-BF6D-4449-87F0-EC845B1D396C}.Release|x86.ActiveCfg = Release|Win32
 		{2520A76E-BF6D-4449-87F0-EC845B1D396C}.Release|x86.Build.0 = Release|Win32
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Debug|x64.ActiveCfg = Debug|x64
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Debug|x64.Build.0 = Debug|x64
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Debug|x86.Build.0 = Debug|Win32
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Release|x64.ActiveCfg = Release|x64
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Release|x64.Build.0 = Release|x64
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Release|x86.ActiveCfg = Release|Win32
+		{FBE8D9C2-1211-4D53-940B-4BB747AD627B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
