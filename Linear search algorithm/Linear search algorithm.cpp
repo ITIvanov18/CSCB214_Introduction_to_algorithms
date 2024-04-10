@@ -17,9 +17,10 @@ int linearSearch(int arr[], int size, int target) {
 
 int main()
 {
-	int arr[] = { 2, 3, 0, 8, 7, 6, 4, 9 }; 
-	int size = sizeof(arr);
-	int target = 7;
+	int arr[] = { 1, 1, 5, 4, 3, 6}; 
+	int size = sizeof(arr) / sizeof(arr[0]);
+
+	int target = 4;
 
 	int result = linearSearch(arr, size, target);
 	if (result != -1) {
