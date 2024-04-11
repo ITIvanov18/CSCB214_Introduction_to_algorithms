@@ -24,6 +24,7 @@
     <ProjectGuid>{368b071e-f550-46fe-be9b-480878c718a1}</ProjectGuid>
     <RootNamespace>Linearsearchalgorithmwithpivot</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Linear search algorithm with sentinel</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Linear search algorithm with pivot.cpp" />
+    <ClCompile Include="Linear search algorithm with sentinel.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-bool linearSearchWithPivot(char arr[], int size, char target, int& checksCount, int& kotva) {
+bool linearSearchWithSentinel(char arr[], int size, char target, int& checksCount, int& kotva) {
     for (int i = kotva - 1; i < size; i++) {  // i = kotva - 1, защото иначе обхождането започва от arr[1]
         checksCount++;
         if (arr[i] == target) {
@@ -23,7 +23,7 @@ int main() {
     int checksCount = 0, kotva = 0;
 
     for (int i = 0; i < 4; i++) {
-        result = linearSearchWithPivot(arr, size, targets[i], checksCount, kotva);
+        result = linearSearchWithSentinel(arr, size, targets[i], checksCount, kotva);
         if (result == false) {
             allFound = false;
             cout << "Липсва буквата " << targets[i] << " в масива.\n";

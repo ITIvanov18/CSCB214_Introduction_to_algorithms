@@ -33,7 +33,7 @@ int main(void)
     int result = binarySearch(arr, 0, size - 1, x);
 
     if (result == -1) {
-        cout << "Елементът не се намира в масива." << endl;
+        cout << "Елементът НЕ се намира в масива." << endl;
     } else {
         cout << "Елементът се намира на индекс " << result << endl;
     }

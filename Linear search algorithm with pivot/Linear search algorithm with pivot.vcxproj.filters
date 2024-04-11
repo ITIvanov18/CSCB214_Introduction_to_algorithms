@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Linear search algorithm with pivot.cpp">
+    <ClCompile Include="Linear search algorithm with sentinel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
