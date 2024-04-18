@@ -32,7 +32,6 @@ int main()
 			max = arrayA[i];
 		}
 	}
-	arrayB[arrLength - 1] = max;
 	cout << "Max value: " << max << endl;
 
 	int min = arrayA[0];
@@ -41,14 +40,17 @@ int main()
 			min = arrayA[i];
 		}
 	}
-	arrayB[0] = min;
 	cout << "Min value: " << min << endl;
 
+	// Поставяме min и max елементите в началото и съответно в края на arrayB
+	arrayB[0] = min;
+	arrayB[arrLength - 1] = max;
+
 	for (int i = 0; i < arrLength; i++) {
-		int smallestElementIndex = i;
+		int smallestElementIndex = 0;
 
 		// Откриваме кой е индексът на най-малкия елемент в arrayA
-		for (int j = 1; j < arrLength; j++) {
+		for (int j = 1; j < arrLength - 1; j++) {
 			if (arrayA[j] < arrayA[smallestElementIndex]) {
 				smallestElementIndex = j;
 			}
