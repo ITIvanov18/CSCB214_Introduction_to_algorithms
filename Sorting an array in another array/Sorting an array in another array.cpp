@@ -3,13 +3,28 @@
 
 #include <iostream>
 using namespace std;
+const int arrLength = 9;
 
-const int arrLength = 6;
+/*
+void printArray(int arr[], int length) {
+	for (int i = 0; i < length; i++) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+}
+*/
 
 int main()
 {
-	int arrayA[arrLength] = { 3, 11, 2, 9, 1, 5 };
+	//int arrayA[arrLength] = { 3, 11, 2, 9, 1, 5 };
+	int arrayA[arrLength] = { 2, 1, 4, 1, 6, 5, 0, 4, 8};
 	int arrayB[arrLength];
+
+	cout << "Original array: ";
+	for (int i = 0; i < arrLength; i++) {
+		cout << arrayA[i] << " ";
+	}
+	cout << endl;
 
 	int max = arrayA[0];
 	for (int i = 0; i < arrLength; i++) {
@@ -17,6 +32,7 @@ int main()
 			max = arrayA[i];
 		}
 	}
+	arrayB[arrLength - 1] = max;
 	cout << "Max value: " << max << endl;
 
 	int min = arrayA[0];
@@ -25,10 +41,11 @@ int main()
 			min = arrayA[i];
 		}
 	}
+	arrayB[0] = min;
 	cout << "Min value: " << min << endl;
 
 	for (int i = 0; i < arrLength; i++) {
-		int smallestElementIndex = 0;
+		int smallestElementIndex = i;
 
 		// Откриваме кой е индексът на най-малкия елемент в arrayA
 		for (int j = 1; j < arrLength; j++) {
@@ -40,6 +57,11 @@ int main()
 		arrayB[i] = arrayA[smallestElementIndex];
 		// Заменяме стойността на най-малкия елемент в arrayA със стойността на най-големия
 		arrayA[smallestElementIndex] = max;
+
+	/*   Отпечатваме arrayB на всяка итерация
+		cout << "ArrayB after iteration " << i + 1 << ": ";
+		printArray(arrayB, arrLength);
+	*/
 	}
 
 	cout << "Sorted array: ";
