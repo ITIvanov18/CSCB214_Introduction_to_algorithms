@@ -49,6 +49,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum element and it's in
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Selection sort algorithm", "Selection sort algorithm\Selection sort algorithm.vcxproj", "{75056690-51E8-449D-9FC4-832F8EBA241B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bubble sort realization without while loop", "Bubble sort realization without while loop\Bubble sort realization without while loop.vcxproj", "{03DD3566-CE68-47E3-9656-0CDE69F826B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion sort algorithm", "Insertion sort algorithm\Insertion sort algorithm.vcxproj", "{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +245,22 @@ Global
 		{75056690-51E8-449D-9FC4-832F8EBA241B}.Release|x64.Build.0 = Release|x64
 		{75056690-51E8-449D-9FC4-832F8EBA241B}.Release|x86.ActiveCfg = Release|Win32
 		{75056690-51E8-449D-9FC4-832F8EBA241B}.Release|x86.Build.0 = Release|Win32
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Debug|x64.ActiveCfg = Debug|x64
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Debug|x64.Build.0 = Debug|x64
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Debug|x86.Build.0 = Debug|Win32
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Release|x64.ActiveCfg = Release|x64
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Release|x64.Build.0 = Release|x64
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Release|x86.ActiveCfg = Release|Win32
+		{03DD3566-CE68-47E3-9656-0CDE69F826B2}.Release|x86.Build.0 = Release|Win32
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Debug|x64.ActiveCfg = Debug|x64
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Debug|x64.Build.0 = Debug|x64
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Debug|x86.Build.0 = Debug|Win32
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x64.ActiveCfg = Release|x64
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x64.Build.0 = Release|x64
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x86.ActiveCfg = Release|Win32
+		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
