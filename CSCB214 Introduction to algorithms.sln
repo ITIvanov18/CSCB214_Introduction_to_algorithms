@@ -53,6 +53,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bubble sort realization wit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion sort algorithm", "Insertion sort algorithm\Insertion sort algorithm.vcxproj", "{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrix multiplication algorithm", "Matrix multiplication algorithm\Matrix multiplication algorithm.vcxproj", "{8BC2A284-0D96-4067-BB49-2685CE042F73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Irregular size matrix multiplication", "Irregular size matrix multiplication\Irregular size matrix multiplication.vcxproj", "{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion sort without sentilnel (using while loop)", "Insertion sort without sentilnel (using while loop)\Insertion sort without sentilnel (using while loop).vcxproj", "{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion sort algorithm operations count (10000, 15000, 20000, 30000 elements)", "Insertion sort algorithm operations count (10000, 15000, 20000, 30000 elements)\Insertion sort algorithm operations count (10000, 15000, 20000, 30000 elements).vcxproj", "{F0918528-5080-4DB7-BFC3-E05487A1330B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +269,38 @@ Global
 		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x64.Build.0 = Release|x64
 		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x86.ActiveCfg = Release|Win32
 		{F038E255-5F6A-4FE3-BA12-AAD631D7D59F}.Release|x86.Build.0 = Release|Win32
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Debug|x64.ActiveCfg = Debug|x64
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Debug|x64.Build.0 = Debug|x64
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Debug|x86.Build.0 = Debug|Win32
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Release|x64.ActiveCfg = Release|x64
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Release|x64.Build.0 = Release|x64
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Release|x86.ActiveCfg = Release|Win32
+		{8BC2A284-0D96-4067-BB49-2685CE042F73}.Release|x86.Build.0 = Release|Win32
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Debug|x64.ActiveCfg = Debug|x64
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Debug|x64.Build.0 = Debug|x64
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Debug|x86.Build.0 = Debug|Win32
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Release|x64.ActiveCfg = Release|x64
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Release|x64.Build.0 = Release|x64
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Release|x86.ActiveCfg = Release|Win32
+		{3C9F9DC0-A44C-416A-866D-F6E191C2B61B}.Release|x86.Build.0 = Release|Win32
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Debug|x64.ActiveCfg = Debug|x64
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Debug|x64.Build.0 = Debug|x64
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Debug|x86.Build.0 = Debug|Win32
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Release|x64.ActiveCfg = Release|x64
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Release|x64.Build.0 = Release|x64
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Release|x86.ActiveCfg = Release|Win32
+		{C1C7060D-19A8-4CBD-8A43-E3FF54E2034C}.Release|x86.Build.0 = Release|Win32
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Debug|x64.ActiveCfg = Debug|x64
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Debug|x64.Build.0 = Debug|x64
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Debug|x86.Build.0 = Debug|Win32
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x64.ActiveCfg = Release|x64
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x64.Build.0 = Release|x64
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x86.ActiveCfg = Release|Win32
+		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
