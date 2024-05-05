@@ -23,15 +23,18 @@ int main()
 		masiv[0] = masiv[i];    // kotva na index 0
 		int buffer = masiv[i];
 		int j = i - 1;
-	begin:
-		if (buffer < masiv[j]) {
-			counter++;
-			masiv[j + 1] = masiv[j];
-			j--;
-			goto begin;
+
+		for (j; j >= 0; j--) {
+			if (buffer < masiv[j]) {
+				counter++;
+				masiv[j + 1] = masiv[j];
+			} else {
+				break;
+			}
 		}
 		masiv[j + 1] = buffer;
 	}
+
 
 	printArray(masiv, size);
 	cout << "\nBroi sravneniq: " << counter << endl;
