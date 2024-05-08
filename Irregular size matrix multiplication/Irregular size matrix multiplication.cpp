@@ -4,60 +4,58 @@
 #include <iostream>
 using namespace std;
 
-
-int main() {
+int main()
+{
 	cout << "Matrix A: \n";
 
-	int matrixA[4][3] = { {1,2,3}, {4,5,6}, {7,8,9}, {10,11,12} };
-	for (int i = 0; i < 4; i++)
+	int matrixA[3][4] = { {4, 8, 9, 4}, {3, 3, 1, 7}, {6, 4, 6, 2} };
+
+	for (int i = 0; i < 3; i++)
 	{
-		for (int j = 0; j < 3; j++)
+		for (int j = 0; j < 4; j++)
 		{
 			cout << matrixA[i][j] << " ";
 		}
 		cout << endl;
 	}
-	cout << endl;
 
-	cout << "Matrix B: \n";
+	cout << "\nMatrix B: \n";
 
-	int matrixB[4][3] = { {1,1,1}, {1,1,1}, {1,1,1}, {1,1,1} };
-	for (int i = 0; i < 3; i++)
+	int matrixB[4][2] = { {4, 3}, {8, 4}, {9, 1}, {4, 7} };
+
+	for (int k = 0; k < 4; k++)
 	{
-		for (int j = 0; j < 4; j++)
+		for (int n = 0; n < 2; n++)
 		{
-			cout << matrixB[i][j] << " ";
+			cout << matrixB[k][n] << " ";
 		}
 		cout << endl;
 	}
-	cout << endl;
 
-	int matrixC[4][3];
-
-	//index row = i, index column = j
-	// matrixC [i, j] = ?
-
-	for (int i = 0; i < 4; i++)
+	int matrixC[3][2];
+	// index row = i, index column = k
+	// matrixC [i, k] = ?
+	
+	for (int i = 0; i < 3; i++) 
 	{
-		for (int j = 0; j < 3; j++)
+		for (int k = 0; k < 2; k++) 
 		{
-			//i-tiq red na a po j-tiq stulb na b- skaralrno proizvedenie;
-			matrixC[i][j] = 0;
-			for (int k = 0; k < 3; k++)
+			// ред i на matrixA * стълб k на matrixB = скаларно произведение
+			matrixC[i][k] = 0;
+			for (int m = 0; m < 4; m++) 
 			{
-				matrixC[i][j] = matrixC[i][j] + matrixA[i][k] * matrixB[k][j];
+				matrixC[i][k] = matrixC[i][k] + matrixA[i][m] * matrixB[m][k];
 			}
-
 		}
 	}
 
-	cout << "Matrix C: \n";
+	cout << "\nMatrix C: \n";
 
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < 3; i++)
 	{
-		for (int j = 0; j < 3; j++)
+		for (int k = 0; k < 2; k++)
 		{
-			cout << matrixC[i][j] << " ";
+			cout << matrixC[i][k] << " ";
 		}
 		cout << endl;
 	}
