@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion sort without sent
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion sort algorithm operations count (10000, 15000, 20000, 30000 elements)", "Insertion sort algorithm operations count (10000, 15000, 20000, 30000 elements)\Insertion sort algorithm operations count (10000, 15000, 20000, 30000 elements).vcxproj", "{F0918528-5080-4DB7-BFC3-E05487A1330B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gaussian Elimination algorithm (to solve linear equations)", "Gaussian Elimination algorithm (to solve linear equations)\Gaussian Elimination algorithm (to solve linear equations).vcxproj", "{28669D07-2DF9-434C-95D9-A781DAC4BBFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x64.Build.0 = Release|x64
 		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x86.ActiveCfg = Release|Win32
 		{F0918528-5080-4DB7-BFC3-E05487A1330B}.Release|x86.Build.0 = Release|Win32
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Debug|x64.ActiveCfg = Debug|x64
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Debug|x64.Build.0 = Debug|x64
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Debug|x86.Build.0 = Debug|Win32
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Release|x64.ActiveCfg = Release|x64
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Release|x64.Build.0 = Release|x64
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Release|x86.ActiveCfg = Release|Win32
+		{28669D07-2DF9-434C-95D9-A781DAC4BBFB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
